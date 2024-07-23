@@ -6,7 +6,7 @@ const Item = (props) => {
   return (
     <div className='item'>
       <Link to={`/product/${props.id}`}><img scr={props.image} alt="" /></Link>
-      {/* <img src={props.image} alt="" /> */}
+      <img src={props.image} alt="" />
       <p>{props.name}</p>
       <div className="item-prices">
         <div className="item-price-new">
